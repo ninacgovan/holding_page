@@ -1,0 +1,124 @@
+/*{
+  border: red solid 1px !important
+}*/
+body, html, img {
+  width:100%;
+}
+
+body, html, div, img {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+	flex-wrap: wrap;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+  text-align: right;
+}
+
+span {
+  padding-right: 4px;
+}
+
+/*
+ *
+ * Main Logo
+ *
+ */
+
+.logo {
+  text-align: center;
+  width: 100%;
+  margin-top: 30%;
+}
+
+ /*
+  *
+  * Text
+  *
+  */
+
+.text {
+  text-align: right;
+  display: inline-block;
+  vertical-align: text-bottom;
+  color: grey;
+  font-family: Arial;
+  margin-top: 4%;
+  margin-left: 7%;
+  font-size: 1.3em;
+}
+
+@media only screen and (max-width: 599px) {
+  .text {
+    font-size: 1.2em;
+    margin-left: 6%;
+    margin-top: 6.3%;
+  }
+}
+
+@media only screen and (max-width: 549px) {
+  .text {
+    font-size: 1.1em;
+    margin-left: 5%;
+    margin-top: 7.5%;
+  }
+}
+
+@media only screen and (max-width: 519px) {
+  .text {
+    font-size: 1em;
+    margin-left: 2%;
+    margin-top: 10.5%;
+  }
+}
+
+@media only screen and (max-width: 469px) {
+  .text {
+    margin-left: 1%;
+  }
+}
+
+@media only screen and (max-width: 454px) {
+  .text {
+		order: 1;
+    margin-left: 35%;
+  }
+}
+
+@media only screen and (max-width: 399px) {
+  .text {
+    margin-left: 30%;
+  }
+}
+
+@media only screen and (max-width: 348px) {
+  .text {
+    margin-left: 20%;
+  }
+}
+
+  /*
+   *
+   * Characters
+   *
+   */
+
+.character {
+  display: inline-block;
+}
+
+@media only screen and (max-width: 454px) {
+  .character {
+		order: 2;
+    margin-left: 46%;
+    width: 40%;
+  }
+}
